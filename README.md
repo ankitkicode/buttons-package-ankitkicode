@@ -1,5 +1,5 @@
 # buttons-package-codeankitanime
-[![npm version](https://img.shields.io/npm/v/buttons-package-codeankitanime)](https://www.npmjs.com/package/buttons-package-codeankitanime)
+[![npm version](https://img.shields.io/npm/v/buttons-package-codeankitanime)](https://www.npmjs.com/package/buttons-package-ankitkicode)
 
 
 
