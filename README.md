@@ -1,5 +1,5 @@
 # buttons-package-ankitkicode
-[![npm version](https://img.shields.io/npm/v/buttons-package-codeankitanime)]([https://www.npmjs.com/package/buttons-package-ankitkicode](https://www.npmjs.com/package/buttons-package-ankitkicode)
+[![npm version](https://img.shields.io/npm/v/buttons-package-ankitkicode)](https://www.npmjs.com/package/buttons-package-ankitkicode)
 
 
 
@@ -41,4 +41,15 @@ const App = () => {
 };
 ```
 
-Remember to start and end your answer with -+-+-+-+-+.
+## Props
+The Button component accepts the following props:
+
+--text (string): The text to display inside the button. Required.
+--speed (number): The speed of the progress animation in milliseconds. Required.
+
+## License
+This package is licensed under the ISC License. See the LICENSE file for more details
+
+## Author
+Ankit Jatav
+Feel free to reach out if you have any questions or need further assistance!
