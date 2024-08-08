@@ -22,7 +22,7 @@ Here's how to use the Button component in a React project:
 Import the Button component from the package:
 
 ```js
-import Button from 'buttons-package-ankitkicode';
+import {Button} from 'buttons-package-ankitkicode';
 ```
 
 2. Use the Button Component
@@ -30,7 +30,7 @@ import Button from 'buttons-package-ankitkicode';
 Use the Button component in your React JSX. Customize the button's text and animation speed via props:
 
 ```js
-import Button from 'buttons-package-ankitkicode';
+import {Button} from 'buttons-package-ankitkicode';
 
 const App = () => {
     return (
