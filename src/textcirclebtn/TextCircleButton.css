@@ -1,11 +1,8 @@
-/* https://oreillymedia.github.io/Using_SVG/extras/ch07-textpaths.html */ */
-
 .button--surtur {
 	padding: 0;
 	background: none;
 	-webkit-clip-path: circle(40% at 50% 50%);
 	clip-path: circle(40% at 50% 50%);
-	/* transition: .5s; */
 }
 
 .button--surtur:focus-visible {
@@ -28,13 +25,16 @@
 	letter-spacing: 17px; /* Firefox needs this */
 }
 
-.button--surtur:hover .textcircle {
-	transition: all ease .5s;
+
+.rotate-normal {
 	animation: rotateIt 7s linear infinite;
 }
 
+.rotate-reverse {
+	animation: rotateItReverse 7s linear infinite;
+}
+
 .eye {
-	/* transition: .5s; */
 	position: absolute;
 	z-index: 2;
 	width: 60px;
@@ -67,11 +67,16 @@
 }
 
 @keyframes rotateIt {
-    to {
-      transform: rotate(-360deg);
-	  
-    }
-  }
+	to {
+		transform: rotate(-360deg);
+	}
+}
+
+@keyframes rotateItReverse {
+	to {
+		transform: rotate(360deg);
+	}
+}
 
 @keyframes blinkHide {
 	0% {

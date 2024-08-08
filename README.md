@@ -75,10 +75,23 @@ export default App
 ```
 
 ## Props
-The Button component accepts the following props:
 
---text (string): The text to display inside the button. Required.
---speed (number): The speed of the progress animation in milliseconds. Required.
+### Button Component
+
+| Prop Name | Type   | Description                                       | Required |
+|-----------|--------|---------------------------------------------------|----------|
+| `text`    | string | The text to display inside the button.            | Yes      |
+| `speed`   | number | The speed of the progress animation in milliseconds. | Yes      |
+
+### TextCircleButton Component
+
+| Prop Name   | Type   | Description                                         | Required |
+|-------------|--------|-----------------------------------------------------|----------|
+| `text`      | string | The text to display inside the button.              | Yes      |
+| `direction` | string | The direction of the text animation inside the button. | No       |
+
+Note:- direction is string (normal/reverse) use it.
+
 
 ## License
 This package is licensed under the ISC License. See the LICENSE file for more details

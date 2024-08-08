@@ -1,11 +1,13 @@
-// src/TextCircleButton.js
 import React from 'react';
 import './TextCircleButton.css'; // Add any specific CSS for TextCircleButton
 
-const TextCircleButton = ({ text }) => {
+const TextCircleButton = ({ text, direction = 'normal', hover = "false" }) => {
+  const rotationClass = direction === 'reverse' ? 'rotate-reverse' : 'rotate-normal';
+  // const hoverClass = hover === "true" ? 'hover-true' : 'hover-false';
+
   return (
-    <button className="button button--surtur">
-      <svg className="textcircle" viewBox="0 0 500 500">
+    <button className={`button button--surtur `}>
+      <svg className={`textcircle ${rotationClass}`} viewBox="0 0 500 500">
         <title>{text}</title>
         <defs>
           <path id="textcircle" d="M250,400 a150,150 0 0,1 0,-300a150,150 0 0,1 0,300Z" />
