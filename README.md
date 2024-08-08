@@ -13,7 +13,7 @@ To install the package, run:
 npm install buttons-package-ankitkicode
 ```
 
-## Usage
+## Usage- Button 1
 
 Here's how to use the Button component in a React project:
 
@@ -39,6 +39,39 @@ const App = () => {
         </div>
     );
 };
+```
+
+
+## TextCircleButton
+
+Here's how to use the Button component in a React project:
+
+1. Import the Button Component
+
+Import the Button component from the package:
+
+```js
+import { TextCircleButton } from 'buttons-package-ankitkicode';
+```
+
+2. Use the Button Component
+
+Use the Button component in your React JSX. Customize the button's text and animation speed via props:
+
+```js
+
+import {TextCircleButton } from 'buttons-package-ankitkicode';
+
+const App = () => {
+  return (
+    <div>
+      <TextCircleButton text="Write Text Here.." />
+    </div>
+  )
+}
+
+export default App
+
 ```
 
 ## Props
