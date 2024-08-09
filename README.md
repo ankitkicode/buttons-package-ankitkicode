@@ -74,6 +74,71 @@ export default App
 
 ```
 
+## BestiaButton
+
+Here's how to use the Button component in a React project:
+
+1. Import the Button Component
+
+Import the Button component from the package:
+
+```js
+import { BestiaButton } from 'buttons-package-ankitkicode';
+```
+
+2. Use the Button Component
+
+Use the Button component in your React JSX. Customize the button's text and animation speed via props:
+
+```js
+
+import { BestiaButton } from 'buttons-package-ankitkicode';
+
+const App = () => {
+  return (
+    <div>
+      <BestiaButton text=" Text " />
+    </div>
+  )
+}
+
+export default App
+
+```
+
+## SkollButton
+
+Here's how to use the Button component in a React project:
+
+1. Import the Button Component
+
+Import the Button component from the package:
+
+```js
+import { SkollButton } from 'buttons-package-ankitkicode';
+```
+
+2. Use the Button Component
+
+Use the Button component in your React JSX. Customize the button's text and animation speed via props:
+
+```js
+
+import {SkollButton } from 'buttons-package-ankitkicode';
+
+const App = () => {
+  return (
+    <div>
+      <SkollButton text="Text Here" />
+    </div>
+  )
+}
+
+export default App
+
+```
+
+
 ## Props
 
 ### Button Component
@@ -89,6 +154,18 @@ export default App
 |-------------|--------|-----------------------------------------------------|----------|
 | `text`      | string | The text to display inside the button.              | Yes      |
 | `direction` | string | The direction of the text animation inside the button. | No       |
+
+### BestiaButton Component
+
+| Prop Name   | Type   | Description                                         | Required |
+|-------------|--------|-----------------------------------------------------|----------|
+| `text`      | string | The text to display inside the button.              | Yes      |
+
+###  SkollButton Component
+
+| Prop Name   | Type   | Description                                         | Required |
+|-------------|--------|-----------------------------------------------------|----------|
+| `text`      | string | The text to display inside the button.              | Yes      |
 
 Note:- direction is string (normal/reverse) use it.
 
