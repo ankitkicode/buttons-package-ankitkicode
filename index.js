@@ -4,5 +4,7 @@
 
 import Button from "./src/Buttton";
 import TextCircleButton from "./src/textcirclebtn/TextCircleButton";
+import BestiaButton from "./src/bestisbtn/BestiaButton";
+import SkollButton from "./src/skollbtn/SkollButton";
 
-export  {Button,TextCircleButton};
+export  {Button,TextCircleButton,BestiaButton,SkollButton};
